@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  color: #333333;
+}
+
+/* Card Containers */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading - High Contrast & Clearly Visible */
+h2 {
+  color: #1e3a8a; /* Deep Navy Blue */
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #2e5aac;
+  color: #ffffff;
+}
+
+/* Inputs - Clean white background with dark readable text */
+input {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Primary Buttons */
+button {
+  width: 100%;
+  padding: 10px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.header-row button,
+table button {
+  width: auto;
+}
+
+/* Error Text */
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin: -4px 0 10px;
+  text-align: left;
+}
